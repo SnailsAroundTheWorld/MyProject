@@ -1,0 +1,83 @@
+﻿/*
+本文件定义的是全站共用的展示样式
+*/
+
+
+
+/* CSS Document */
+* { margin: 0; padding: 0;} 
+body { margin :0; font-size :14px;font-family:"Microsoft YaHei","SimSun", arial,sans-serif,serif; color:#333 ; background:#f0f0f0} 
+div,ul,li {  line-height:150%;} 
+ul,dl{ list-style-type :none;} 
+ul,li{ margin :0px; padding :0px; list-style :none;} 
+img,li{ vertical-align :top} 
+img { border :none;} 
+p,br{ margin :0px; padding :0px; } 
+h1,h2,h3,h4,h5,h6,dl,dt,dd { margin :0; padding :0; border: 0; font-weight: normal; font-size: 14px;} 
+form{ padding :0px; margin :0px ; border:0px;} 
+a[href], input[type='submit'], input[type='image'] , label[for], select, button, .pointer { cursor: pointer;} 
+
+/*Wrap定义了屏幕画板的大小*/
+.wrap{ width :1000px; padding-left:13px; padding-right: 13px; margin-left:auto; margin-right:auto; text-align: left;} 
+
+.box{ width :960px; margin-left:auto; margin-right:auto; text-align: left;} 
+a { color: #000; text-decoration: none;} 
+a:hover { color:#333; text-decoration:underline;} 
+h1{ font-size :14px; font-weight:bold; color:#bf0a33;} 
+h4{ font-size :14px; font-weight:bold; color:#999;} 
+h3{font-weight :bold; color:#34A2BA; text-align:center} 
+h2{font-weight :bold; color:#ee0288; text-align:center; font-size: 16px;} 
+.red { color :#c21012} 
+.more{float :right;} 
+.divshut:after {clear: both;content: " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";display: block;font-size: xx-large;height : 0 !important;line-height: 0;overflow: hidden;visibility : hidden;} 
+.dashedline {BORDER-BOTTOM-STYLE :  dashed; BORDER-LEFT-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none} 
+.clearfix:after{content:'\20';display:block;height:0;clear:both}.clearfix{zoom:1} 
+.wordwrap{word-break:break-all;word-wrap:break-word} 
+
+/*The most commonly used*/
+.fl { float :left;} 
+.fr { float :right;} 
+.clear {clear :both; float:none; zoom:1; overflow:hidden} 
+.noheight{font-size :0px; height :0px;} 
+.texthidden { overflow :hidden; text-indent:-9999px;} 
+
+.m_top_10{ margin-top :10px;} 
+.m_top_15{ margin-top :15px;} 
+.m_left_15{ margin-left :15px;} 
+.m_lr_7 {margin-left :7px; margin-right :7px;} 
+.border{border :1px solid #f1cbcb;} 
+.b_border{border-bottom :1px solid #ee0288;} 
+.t_border {border-top :1px solid #fee8ea;} 
+
+/*bg*/
+.whitebg { background:#fff}
+
+
+
+
+/*全站顶部区*/
+#header {background:url(../images/sitetop.gif) center top no-repeat; height:164px; margin-bottom: 10px;}
+#sitetop { color:#d88080; background:#b00000; height: 34px; font-size: 16px; line-height:35px;}
+#sitetop .wrap { line-height:35px;}
+#sitetop span{color:#fff; margin-right: 15px;}
+#sitetop .srt { float:right;}
+#sitetop .srt a {margin-left: 5px;color:#ccc;font-size: 14px;}
+
+#nav { height: 131px;}
+#nav #logo {margin-top: 30px;width: 270px;}
+#nav #logo #city { float:right; text-align:left; font-size: 16px; margin-top: 20px;}
+#nav #logo #city  a { text-decoration:underline}
+
+#nav #navlist {  width: 715px;}
+#nav #navlist ul {margin: 0;padding: 0;}
+#nav #navlist ul li {height: 81px;padding-top: 50px; border-right: 1px #ddd solid;float:left; cursor:pointer;color:#333; text-align:center;width: 88px; overflow:hidden}
+#nav #navlist ul li:last-child { border-right:none}
+#nav #navlist ul li:hover,#nav #navlist ul li.selected { background:#ed1347; color:#fff; }
+#nav #navlist ul li:hover a,#nav #navlist ul li.selected  a { color:#fff}
+#nav #navlist ul li a { display:block; font-size:16px;}
+
+/*全站的底部*/
+
+#footer { color:#fff; height:202px; background:url(../images/footer.gif) center top no-repeat;}
+#footer  a { color:#fff}
+#footer .flink li { float: left;} 

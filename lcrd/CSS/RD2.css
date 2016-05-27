@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ margin:0; font-family:微软雅黑; font-size:14px; color:#333;}
+
+div,ul,li {color:#5A5A5A; line-height:150%;}
+ul,dl{ list-style-type :none;}
+ul,li{ margin :0px; padding :0px; list-style :none;}
+img,li{ vertical-align :top}
+img { border :none;}
+p,br{ margin :0px; padding :0px; }
+h1,h2,h3,h4,h5,h6,dl,dt,dd { margin :0; padding :0; border: 0; font-weight: normal; font-size: 14px;}
+form{ padding :0px; margin :0px ; border:0px;}
+hr{  width:1000px; margin:auto;margin-bottom:16px;}
+.fl{ float:left;}
+.fr{ float:right;}
+.common{ width:1000px;margin:auto;}
+
+/*a{color: #333; text-decoration: none;}
+
+/*头背景*/
+
+
+#top{ margin-bottom:14px;}
+  #top a{color: #fff; text-decoration: none;}
+  #top form{ width:290px;padding-top: 77px;}
+  #top .bg{background-image:url(../images/map.png); height:143px;}
+  #top .bg img{ padding-top:33px;}
+     #SouSuoTiao {width: 230px;height: 31px;border: 0;color: #c4c0bf; float:left;}
+     #AnNiu {width: 60px;height: 31px;background-color: #148fed;color: #fff;border: none;border-top: 2px #fff solid;        margin-bottom: 2px; float:right;}
+/*导航栏*/	 
+#top .title{ background-color:#1f68b4;	height: 62px;}
+  #top .title li{ float:left; line-height:60px; font-size:18px; margin-right:10px; text-indent:13px;}
+  #top .title .selected{ background-color:#075ea1; width:70px;}
+  
+  
+  
+ 
+#content {} 
+  #content .GaoDu1{height:360px; margin-bottom:17px;}
+  #content .GaoDu2{height:82px; margin-bottom:11px;}
+  #content .GaoDu3{height:260px; margin-bottom:14px; position:relative; }
+  #content .GaoDu4{height:626px; margin-bottom:14px;}
+  #content .GaoDu5{height:260px; margin-bottom:14px; }
+  #content .GaoDu6{height:345px; margin-bottom:14px; }
+  #content .GaoDu7{width: 670px; height:625px;}
+  #content  a{ color:#343434; text-decoration:none;}
+/*焦点图、选项卡*/
+  
+  /*滚动焦点图*/
+  #content .focus{ width:558px; height: 359px; /*background-image:url(../images/tupianyi.png);*/ position:relative;} 
+    #content .focus .title{	width: 557px;height: 30px;background: #054487;background-color: rgba(0,0,0,0.5); position:absolute; left:1px; top:329px; z-index:1px;}
+      #content .focus .title .icon{ line-height:30px; text-indent:4px; color:#fff;} 
+      #content .focus .title span{ background-color:#b5b9c1; border:1px solid #A6A6A6; text-align:center; margin-right:5px; padding:1 6 1 6; line-height:30px; color:#000;}
+      #content .focus .title .span1{ background-color:#0966B1; border:1px solid #086698; text-align:center; margin-right:5px; padding:1 6 1 6; line-height:30px; color:#fff;}
+	  
+.fullSlide{width:100%;position:relative;height:359px;background:#000;}
+.fullSlide .bd{margin:0 auto;position:relative;z-index:0;overflow:hidden;}
+.fullSlide .bd ul{width:100% !important;}
+.fullSlide .bd li{width:100% !important;height:359px;overflow:hidden;text-align:center;}
+.fullSlide .bd li a{display:block;height:360px;}
+.fullSlide .hd{width:100%;position:absolute;z-index:1;bottom:0;left:0;height:30px;line-height:30px;}
+.fullSlide .hd ul{text-align:center;}
+.fullSlide .hd ul li{cursor:pointer;display:inline-block;*display:inline;zoom:1;width:42px;height:11px;margin:1px;overflow:hidden;background:#000;filter:alpha(opacity=50);opacity:0.5;line-height:999px;}
+.fullSlide .hd ul .on{background:#f00;}
+.fullSlide .prev,.fullSlide .next{display:block;position:absolute;z-index:1;top:50%;margin-top:-30px;left:15%;z-index:1;width:40px;height:60px;background:url(images/slider-arrow.png) -126px -137px #000 no-repeat;cursor:pointer;filter:alpha(opacity=50);opacity:0.5;display:none;}
+.fullSlide .next{left:auto;right:15%;background-position:-6px -137px;}
+	  
+ 
+  /*选项卡*/
+  #content .XuanXiang{}
+     /*工作动态*/
+    #content .XuanXiang .model1{ width:430px; height:358px; display:block; }
+	  #content .XuanXiang .a1{ color:#1769b7;text-decoration: none;}
+	  #content .XuanXiang  .a2{ color:#b40000; text-decoration: none;}
+	  #content .XuanXiang table .td1{ width:144px; height:37px; color:#1769b7;border:#e4e4e4 1px solid; border-bottom:none; border-top:1px solid #797979; text-align:center;}
+      #content .XuanXiang table .td2{width:270px;color:#a8a6a7;border:none; border-bottom:#e4e4e4 1px solid;  text-indent:2em;} 
+     /*通知公告*/		
+   #content .XuanXiang .model2{ width:430px; height:358px;display:none;}
+	#content .XuanXiang table .td3{ width:144px; height:37px; border:#e4e4e4 1px solid; border-top:none;text-align:center;color:#a8a6a7;}
+    #content .XuanXiang table .td4{width:270px;color:#1769b7;  text-indent:2em;border:none; border-top:1px solid #797979; }
+	/*选项卡公共部分*/ 
+	#content .XuanXiang table{ cellpadding:0; cellspacing:0px; font-size:16px; font-weight:bold; margin-bottom:3px;}	
+	#content .XuanXiang .span{ font-size:18px; color:#1769b7; line-height:40px; margin-left:60px;font-weight:bold; margin-bottom:5px;}
+	#content .XuanXiang p{ font-size:13px; line-height:23px; text-indent:2em; color:#a8a6a7; margin-bottom:7px;}
+	#content .XuanXiang font{ color:#b50000;}
+	#content .XuanXiang .News{ width:420px; }
+	  #content .XuanXiang .News .ul1{overflow:hidden; height:220px;}	  
+	   
+		 #content .XuanXiang .News .ul1 li{background:url(../images/li.png) no-repeat 0px 12px; padding-left:15px; line-height:27px;}
+		 #content .XuanXiang .News .ul1 span{ float:right; font-size:13px; color:#aaa6a7;}
+	    #content .XuanXiang .News .ul2{width:103px;overflow:hidden; }
+	    #content .XuanXiang .News .ul2 li{padding-left:15px; line-height:27px;}
+
+
+/*剩下整个内容区通用部分*/	
+   #content .title1 {width: 650px;height:44px;margin-left: 11px;border-bottom:1px #efefef solid; margin-bottom:15px;}
+    #content .title1 .DTitle {width: 90px;height: 43px;border-bottom: 2px solid #075ea1;font-size: 20px;font-weight: bold;text-indent: 2px;letter-spacing: 2px;line-height: 43px; margin-right:20px;}
+	#content .title1 .STitle{padding-top:15px;}
+	#content .title1 span{margin-left:20px;display:-moz-inline-box;display:inline-block;}
+	#content .title1 .span{ width:75px; height:27px;background-image:url(../images/JDu.png);background-repeat:no-repeat; color:#fff; text-indent:8px; padding-top:2px;}
+	#content .title1 .span1{ margin-left:146px;}
+	#content .title1 .span2{ margin-left:250px;}
+	#content .title1 .span3{ margin-right:26px;}
+    #content .News{ width:653px; margin-left:12px;}
+	#content .News li{background:url(../images/li.png) no-repeat 0px 11px; padding-left:15px; line-height:31px;}
+
+
+
+
+/*监督工作*/
+ #content .Work{width: 670px; height:252px;border:1px #efefef solid;}
+   #content .Work1{}
+	#content .Work1 .title .span1{ margin-left:120px;}
+
+/*重大事项决定*/
+ #content .JueD{width: 320px;height:252px;border:1px #efefef solid; }
+  #content .JueD .title1 {width:300px;height:44px;margin-left:11px;border-bottom:1px #efefef solid;margin-bottom:15px;}
+    #content .JueD .title2 {width:90px;height: 43px;border-bottom: 2px solid #075ea1;font-size: 20px;font-weight: bold;text-indent: 2px;letter-spacing: 2px;line-height: 43px; margin-right:20px;}
+
+    #content .JueD .DTitle {width: 135px;height: 43px;border-bottom: 2px solid #075ea1;font-size: 20px;font-weight: bold;text-indent: 2px;letter-spacing: 2px;line-height: 43px; margin-right:20px;}
+	#content .JueD .STitle{padding-top:15px;}
+  #content .JueD .News{ width:300px; margin-left:12px;}
+	#content .JueD .News li{background:url(../images/li.png) no-repeat 0px 11px; padding-left:15px; line-height:31px;}
+	
+ /*图片新闻*/
+  #content .PhotoNews{width: 670px; height:352px;border:1px #efefef solid;}
+    #content .PhotoNews  .TuPian {width: 150px;height: 123px;padding-top:20px;margin-left: 13px;} 
+    #content .PhotoNews .TuPian p {text-indent: 7px;line-height: 30px;margin-bottom:5px;}
+
+/*服务系统*/
+  #content  .System{width: 320px;height:620px;border:1px #efefef solid;}
+  #content .System .title1{width:300px;height:44px;margin-left:11px;border-bottom:1px #efefef solid;margin-bottom:15px;}
+  #content .System p{ padding-top:2px; margin-left:10px; margin-bottom:10px;}
+   #content .System .DTitle {width:90px;height: 43px;border-bottom: 2px solid #075ea1;font-size: 20px;font-weight: bold;text-indent: 2px;letter-spacing: 2px;line-height: 43px; margin-right:20px;}
+
+
+/*链接*/
+
+  #content .link{ margin-bottom:40px;}
+  #content .link1{ margin-bottom:12px;}
+  #content .link span{ padding:5px;}
+  #content .link .span1{ width:74px; height:27px; background-image:url(../images/lianjie.png); color:#fff;background-repeat:no-repeat;  padding-top:0px; margin-right:15px;}
+
+
+
+
+.pianF{ position:absolute; left:678px; top:0px;}
+
+
+
+
+#End {background-image: url(../images/End.png);height: 155px;min-width:400px;}
+#End .BeiJing {width: 1000px;margin: auto;	height: 155px;}
+#End .BeiJing img {	margin-left: 250px;	padding-top: 40px;}
+#End .BeiJing p {width: 390px;height: 36px;font-size: 12px;line-height: 20px;padding-top: 28px;	margin-right: 260px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
